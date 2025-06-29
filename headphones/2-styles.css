@@ -7,7 +7,6 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
   height: 3006px;
   width: 1400px;
-  background-color: grey;
   line-height: 1.6;
   margin: 0 auto;
   overflow-x: hidden;
@@ -110,7 +109,62 @@ a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  margin-bottom: 150px;
   font-size: 0.875rem;
   width: 207px;
+}
+.our-result{
+  background: url(images/headphones_hero_2.jpg);
+  width: 1400px;
+  height: 650px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.p2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 637px;
+  height: 104px;
+  text-align: center;
+}
+.pre-img img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.presntage {
+  display: flex;
+  gap: 50px; 
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 250px;
+}
+.pre-img{
+  position: relative;
+  width: 150px;
+  text-align: center;
+}
+.pre-img h1,
+.pre-img p {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  margin: 0;
+  padding: 0;
+}
+.pre-img h1 {
+  top: 40px; 
+  font-size: 30px;
+}
+
+.pre-img p {
+  top: 65%; 
+  font-size: 10px;
 }
